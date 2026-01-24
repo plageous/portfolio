@@ -74,15 +74,15 @@ ul {
 }
 
 @media (min-width: 600px) {
-    body {
+    .body {
         line-height: 1.2;
     }
 
-    header {
+    .header {
         padding-bottom: 0.25rem;
     }
 
-    p, ul {
+    .p, .ul {
         font-size: 10px;
         margin-left: 0.25rem;
     }
