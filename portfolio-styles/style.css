@@ -27,9 +27,14 @@ body {
     background-color: var(--bg);
     font-size: 14px;
     font-family: Verdana, sans-serif;
-    line-height: 1.2;
+    line-height: 1.4;
     letter-spacing: 0.01rem;
+    margin: auto;
     max-width: 70%;
+}
+
+div {
+    margin: 2rem 0 2rem;
 }
 
 header {
@@ -38,11 +43,13 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    margin: 0 -1rem 1rem -1rem;
+    padding-bottom: 1rem;
 }
 
 img {
     clip-path: inset(0 0 200px 0);
-    clip-path: circle(25% at 45% 25%);
+    clip-path: circle(25% at 50% 25%);
     margin-top: 1rem;
     margin-bottom: -250px;
     object-fit: cover;
@@ -51,6 +58,7 @@ img {
 
 main {
     background-color: var(--primary);
+    padding: 0 1rem 1rem 1rem;
 }
 
 p {
