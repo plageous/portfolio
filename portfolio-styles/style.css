@@ -7,7 +7,6 @@
 
 a {
     color: black;
-    margin-left: 2rem;
     text-decoration: none;
 }
 
@@ -25,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: var(--bg);
-    font-size: 14px;
+    font-size: 16px;
     font-family: Verdana, sans-serif;
     line-height: 1.4;
     letter-spacing: 0.01rem;
@@ -34,7 +33,7 @@ body {
 }
 
 div {
-    margin: 2rem 0 2rem;
+    margin: 2rem 0 4rem;
 }
 
 header {
@@ -45,6 +44,10 @@ header {
     text-align: center;
     margin: 0 -1rem 1rem -1rem;
     padding-bottom: 1rem;
+}
+
+header h2 {
+    margin-top: -1rem;
 }
 
 img {
@@ -62,5 +65,10 @@ main {
 }
 
 p {
+    font-size: 12px;
+    margin-left: 2rem;
+}
+
+ul {
     font-size: 12px;
 }
