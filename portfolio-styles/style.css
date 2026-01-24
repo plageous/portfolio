@@ -1,21 +1,39 @@
+/* properties are organized alphabetically. you should just use ctrl + F. */
+:root {
+    --primary: white;
+    --bg: #7B4C4F;
+    --header-color: #EDDBCD;
+}
+
 a {
     color: black;
     text-decoration: none;
 }
 
-a:hover {
-    color: grey;
-}
-
+/* turns light grey when clicking on link */
 a:focus {
     color: lightgrey;
 }
 
+/* turns grey when hovering over link */
+a:hover {
+    color: grey;
+}
+
 body {
+    background-color: var(--bg);
     font-size: 14px;
     font-family: Verdana, sans-serif;
     line-height: 1.2;
     letter-spacing: 0.01rem;
+}
+
+header {
+    background-color: var(--header-color);
+}
+
+main {
+    background-color: var(--primary);
 }
 
 p {
