@@ -72,3 +72,18 @@ p {
 ul {
     font-size: 12px;
 }
+
+@media (max-width: 768px) {
+    body {
+        line-height: 1.2;
+    }
+
+    header {
+        padding-bottom: 0.25rem;
+    }
+
+    p, ul {
+        font-size: 10px;
+        margin-left: 0.25rem;
+    }
+}
