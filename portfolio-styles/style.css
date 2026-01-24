@@ -1,3 +1,16 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:focus {
+    color: lightgrey;
+}
+
 body {
     font-size: 14px;
     font-family: Verdana, sans-serif;
